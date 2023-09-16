@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій перший веб-сайт</title>
+    <title>Cистемний аналіз у діджитал-сфері</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: ##f8f8f8;
+            background-color: #f8f8f8;
             margin: 0;
             padding: 0;
         }
@@ -33,7 +33,12 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            background-color: #007bff; 
+            border: 1px solid #007bff;
+            border-radius: 3px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         main {
@@ -57,18 +62,28 @@
             margin-top: 20px;
         }
 
-        nav ul li a {
-            color: #333;
-            text-decoration: none;
-            padding: 5px 10px;
-            border: 1px solid #333;
-            border-radius: 3px;
-            transition: background-color 0.3s ease;
+        nav ul li a:hover {
+            background-color: #0056b3; 
+            color: #fff;
         }
 
-        nav ul li a:hover {
-            background-color: #333;
-            color: #fff;
+        /* Додані кольори */
+        h1 {
+            color: #333;
+        }
+
+        section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        ul {
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
         }
     </style>
 </head>
@@ -88,21 +103,53 @@
     <main>
         <section>
             <h2>Про нас</h2>
-            <p>Запрошуємо Вас записатись на курс "Системний аналіз у діджитал-сфері". Звертайтеся до нас з будь-якими проектами!</p>
-            <img src=" http://web.kpi.kharkov.ua/say/wp-content/uploads/sites/84/2023/08/Rezultaty-opytuvannya-shhodo-zmistu-osvitnih-program-768x384.jpg" >
+            <p>Запрошуємо вас на курс з системного аналізу у діджитал-сфері. Звертайтеся до нас за додатковою інформацією!</p>
         </section>
 
         <section>
             <h2>Контакти</h2>
             <address>
-                <p>Email: <a href="mailto: kk00e@example.com">example@example.com</a></p>
+                <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
                 <p>Телефон: +123456789</p>
             </address>
         </section>
+
+        <!-- Додані розділи -->
+        <section>
+            <h2>Наші послуги</h2>
+            <p>Ми надаємо великий спектр послуг, включаючи:</p>
+            <ul>
+                <li>Системний аналіз</li>
+                <li>Веб-розробка</li>
+                <li>Дизайн інтерфейсу</li>
+                <li>Цифровий маркетинг</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Наші клієнти</h2>
+            <p>Ми співпрацюємо з численними клієнтами з різних галузей:</p>
+            <ul>
+                <li>Горбульова Анна-Марія </li>
+                <li>Волощук Марія</li>
+                <li>Логвіновська Анастасія</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Блог</h2>
+            <p>Слідкуйте за нашими наступними конференціями та читайте останні новини на нашому блозі:</p>
+            <ul>
+                <li><a href="#">Практ Системн аналіз  діджитал-сфері</a></li>
+                <li><a href="#">КонсЕ Системн аналіз  діджитал-сфері</a></li>
+                <li><a href="#">Екзам Системн аналіз  діджитал-сфері</a></li>
+            </ul>
+        </section>
     </main>
 
+  
     <footer>
-        <p>&copy; 2023 К-КНЕУ. Усі права захищені.</p>
+        <p>&copy; 2023 КК-КНЕУ. Усі права захищені.</p>
     </footer>
 </body>
 </html>
